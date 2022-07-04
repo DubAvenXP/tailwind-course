@@ -5,10 +5,6 @@ const store = useExampleStore()
 </script>
 
 <template>
-	<h1>{{ store.getMessage }}</h1>
+	<h1 class="text-3xl font-bold underline">{{ store.getMessage }}</h1>
 </template>
 
-<style lang="sass">
-h1
-	color: red
-</style>
