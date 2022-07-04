@@ -15,3 +15,31 @@
 * by plugins.
 */
 @tailwind utilities;
+
+
+@layer components {
+	.card {
+		@apply w-44 h-52 flex-none shadow-md rounded-lg overflow-hidden
+	}
+	.card-img {
+		@apply w-full h-3/5 bg-cover
+	}
+	.card-content__primary {
+		@apply w-full h-2/5 bg-secondary px-4 pt-2
+	}
+	.card-content__secondary {
+		@apply w-full h-2/5 bg-white px-4 pt-2
+	}
+	.card-color__primary {
+		@apply text-white
+	}
+	.card-color__secondary {
+		@apply text-tertiary
+	}
+	.card-title {
+		@apply font-bold text-lg
+	}
+	.card-text {
+		@apply text-base
+	}
+}
