@@ -6,6 +6,7 @@ import Faqs from "./components/Faqs.vue";
 import Rents from "./components/Rents.vue";
 
 import VueFooter from "./../shared/components/Footer.vue";
+import VueTabBar from "./../shared/components/TabBar.vue";
 
 </script>
 
@@ -20,5 +21,5 @@ import VueFooter from "./../shared/components/Footer.vue";
 		<faqs></faqs>
 	</main>
 	<vue-footer></vue-footer>
-	<div id="tab-bar" class="h-20 bg-black fixed bottom-0 left-0 right-0"></div>
+	<vue-tab-bar></vue-tab-bar>
 </template>

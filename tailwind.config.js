@@ -8,6 +8,8 @@ module.exports = {
 			tertiary: "#61AEC9",
 			black: "#000",
 			white: "#fff",
+			silver: "#f5f5f5",
+
 		},
 		fontFamily: {
 			montserrat: ["Montserrat", "sans-serif"],

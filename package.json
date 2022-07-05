@@ -9,6 +9,7 @@
 		"prettier": "prettier --write '**/*.{vue,js,jsx,cjs,mjs,html,sass}'"
 	},
 	"dependencies": {
+		"@heroicons/vue": "^1.0.6",
 		"pinia": "^2.0.14",
 		"tailwind-scrollbar-hide": "^1.1.7",
 		"vue": "^3.2.37",

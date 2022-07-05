@@ -1,5 +1,5 @@
 <template>
-	<footer class="h-auto p-6">
+	<footer class="h-auto p-6 mb-20">
 		<h6 class="title-view">Sobre nosotros</h6>
 		<ul class="flex flex-col gap-2">
 			<li class="cursor-pointer underline hover:text-primary">Inversores</li>
