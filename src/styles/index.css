@@ -1,3 +1,8 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
 /**
 * This injects Tailwind's base styles and any base styles registered by
 * plugins.
@@ -16,10 +21,9 @@
 */
 @tailwind utilities;
 
-
 @layer components {
 	.card {
-		@apply w-44 h-52 flex-none shadow-md rounded-lg overflow-hidden
+		@apply w-44 h-52 flex-none shadow-md rounded-lg overflow-hidden transition hover:-translate-y-5 hover:shadow-lg
 	}
 	.card-img {
 		@apply w-full h-3/5 bg-cover
@@ -40,6 +44,10 @@
 		@apply font-bold text-lg
 	}
 	.card-text {
-		@apply text-base
+		@apply text-sm
+	}
+
+	.title-view {
+		@apply text-3xl text-primary font-semibold pb-6
 	}
 }

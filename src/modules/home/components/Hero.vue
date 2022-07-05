@@ -3,9 +3,17 @@
 <template>
 	<section id="hero">
 		<div class="w-full h-3/4 relative">
-			<div class="w-full h-full flex flex-col justify-between absolute top-0  py-4 items-center ">
-				<input class="outline-none p-3 rounded-full shadow-sm" placeholder="San Francisco" type="search" />
-				<button class="bg-white text-xl font-semibold p-4 w-36 rounded-full text-primary shadow-sm">Explorar</button>
+			<div class="w-full h-full flex flex-col justify-between absolute top-0 py-4 items-center">
+				<input
+					class="outline-none p-3 rounded-full shadow-sm trasition duration-300 focus-within:shadow-sm focus:scale-105 focus:outline-none"
+					placeholder="Ingresa tu destino..."
+					type="search"
+				/>
+				<button
+					class="transition ease-in-out delay-150 hover:-translate-y-1 hover:bg-primary hover:text-white duration-300 bg-white text-lg font-semibold p-3 w-36 rounded-full text-primary shadow-sm"
+				>
+					Explorar
+				</button>
 			</div>
 			<img
 				class="w-full h-full"
