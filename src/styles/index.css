@@ -29,16 +29,16 @@
 		@apply w-full h-3/5 bg-cover
 	}
 	.card-content__primary {
-		@apply w-full h-2/5 bg-secondary px-4 pt-2
+		@apply w-full h-2/5 bg-secondary px-4 pt-2 dark:bg-dark-gray-100
 	}
 	.card-content__secondary {
-		@apply w-full h-2/5 bg-white px-4 pt-2
+		@apply w-full h-2/5 bg-white px-4 pt-2 dark:bg-dark-gray-200
 	}
 	.card-color__primary {
-		@apply text-white
+		@apply text-white 
 	}
 	.card-color__secondary {
-		@apply text-tertiary
+		@apply text-tertiary dark:text-white 
 	}
 	.card-title {
 		@apply font-bold text-lg

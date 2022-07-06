@@ -3,8 +3,8 @@
 <template>
 	<section id="faqs" class="h-auto p-6">
 		<p class="title-view">Faqs</p>
-		<div class="flex flex-col gap-4">
-			<article>
+		<div class="flex flex-col dark:text-white gap-4 lg:flex-row  lg:flex-wrap lg:justify-between">
+			<article class="lg:w-2/12">
 				<p class="text-primary font-semibold text-lg pb-4">
 					Payment Methods
 				</p>
@@ -14,7 +14,7 @@
 					minus corporis necessitatibus modi quisquam.
 				</p>
 			</article>
-			<article>
+			<article class="lg:w-2/12">
 				<p class="text-primary font-semibold text-lg pb-4">
 					Cancelation Policy
 				</p>
@@ -24,7 +24,7 @@
 					minus corporis necessitatibus modi quisquam.
 				</p>
 			</article>
-			<article>
+			<article class="lg:w-2/12">
 				<p class="text-primary font-semibold text-lg pb-4">
 					Long Stays
 				</p>
@@ -34,7 +34,7 @@
 					minus corporis necessitatibus modi quisquam.
 				</p>
 			</article>
-			<article>
+			<article class="lg:w-2/12">
 				<p class="text-primary font-semibold text-lg pb-4">
 					Cancelation Policy
 				</p>
@@ -44,7 +44,7 @@
 					minus corporis necessitatibus modi quisquam.
 				</p>
 			</article>
-			<article>
+			<article class="lg:w-2/12">
 				<p class="text-primary font-semibold text-lg pb-4">
 					Payment Methods
 				</p>

@@ -15,7 +15,7 @@ const darkMode = () => {
 <template>
 	<div
 		id="tab-bar"
-		class="h-20 border-t-2 border-silver shadow-md  bg-white fixed bottom-0 left-0 right-0 flex justify-center items-center gap-8"
+		class="h-20 border-t-2 border-silver shadow-md  bg-white fixed bottom-0 left-0 right-0 flex justify-center items-center gap-10 lg:hidden"
 	>
 		<a href="#hero">
 			<home-icon class="h-6 w-6 text-primary"></home-icon>
