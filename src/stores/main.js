@@ -1,7 +1,7 @@
 import { defineStore } from "pinia"
 
-export const useCityStore = defineStore({
-	id: "city",
+export const useMainStore = defineStore({
+	id: "main",
 	state: () => ({
 		cities: [
 			{

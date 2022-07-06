@@ -1,12 +1,12 @@
 <script setup>
 import { computed } from "vue"
-import { useCityStore } from "@/stores"
+import { useMainStore } from "@/stores"
 
 import CityCard from "./Card.vue"
 
-const cityStore = useCityStore()
+const mainStore = useMainStore()
 
-const cities = computed(() => cityStore.getCities)
+const cities = computed(() => mainStore.getCities)
 </script>
 
 <template>

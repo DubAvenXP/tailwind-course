@@ -1,2 +1,2 @@
 export { useExampleStore } from "./example"
-export { useCityStore } from "./city"
+export { useMainStore } from "./main"
